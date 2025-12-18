@@ -1,4 +1,4 @@
-baseURL = 'https://aegisprime.io/blog/'
+baseURL = 'https://blog.aegisprime.app/'
 languageCode = 'en-us'
 title = 'Aegis Prime | Security Intelligence Blog'
 theme = 'PaperMod'
@@ -31,12 +31,9 @@ theme = 'PaperMod'
   # Social links
   [[params.socialIcons]]
     name = "github"
-    url = "https://github.com/aegisprime"
+    url = "https://github.com/Deanrr"
   
-  [[params.socialIcons]]
-    name = "linkedin"
-    url = "https://linkedin.com/company/aegisprime"
-
+  
 [menu]
   [[menu.main]]
     name = "Home"
