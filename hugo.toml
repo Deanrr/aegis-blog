@@ -1,0 +1,62 @@
+baseURL = 'https://aegisprime.io/blog/'
+languageCode = 'en-us'
+title = 'Aegis Prime | Security Intelligence Blog'
+theme = 'PaperMod'
+
+[params]
+  env = "production"
+  description = "Security insights, threat intelligence, and the science behind autonomous alert triage from the AegisPrime team."
+  author = "AegisPrime"
+  
+  # SEO
+  keywords = ["A3R", "Automated Artifact Analysis Response", "EDR SOAR gap", "alert triage", "SOC automation", "threat intelligence", "MITRE ATT&CK", "AegisPrime"]
+  
+  # Social/OpenGraph
+  images = ["/images/aegis-og.png"]
+  
+  # Theme settings
+  ShowShareButtons = true
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  
+  # Home info
+  [params.homeInfoParams]
+    Title = "Aegis Prime Security Blog"
+    Content = "Exploring autonomous security analysis, threat intelligence, and the future of SOC automation."
+  
+  # Social links
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/aegisprime"
+  
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/company/aegisprime"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 5
+  
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 10
+
+# SEO optimizations
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.highlight]
+    style = "monokai"

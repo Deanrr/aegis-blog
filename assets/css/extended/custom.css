@@ -1,0 +1,28 @@
+/* Custom styles for Aegis Blog */
+
+/* Cover image - full width, readable on mobile */
+.post-content .post-cover,
+.entry-cover,
+article .post-cover {
+    width: 100%;
+    max-width: 500px;
+    margin: 1.5rem auto;
+}
+
+.post-content .post-cover img,
+.entry-cover img,
+article .post-cover img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Style the caption */
+.post-cover figcaption,
+.entry-cover figcaption {
+    text-align: center;
+    font-size: 0.85rem;
+    opacity: 0.7;
+    margin-top: 0.75rem;
+}
