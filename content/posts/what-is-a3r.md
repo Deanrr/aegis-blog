@@ -8,10 +8,10 @@ keywords = ['A3R', 'Automated Artifact Analysis Response', 'EDR vs SOAR', 'alert
 author = 'AegisPrime Team'
 ShowToc = true
 TocOpen = true
-cover.image = 'images/a3r-cover.png'
+cover.image = '/images/a3r-cover.png'
 cover.alt = 'A3R Risk Gauge'
 cover.caption = 'A3R provides instant, deterministic threat assessment'
-cover.relative = true
+cover.relative = false
 +++
 
 ## What is A3R?

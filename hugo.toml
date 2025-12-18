@@ -28,11 +28,10 @@ theme = 'PaperMod'
     Title = "Aegis Prime Security Blog"
     Content = "Exploring autonomous security analysis, threat intelligence, and the future of SOC automation."
   
-  # Social links
-  [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/Deanrr"
-  
+  # Social links (disabled)
+  # [[params.socialIcons]]
+  #   name = \"github\"
+  #   url = \"https://github.com/Deanrr\"
   
 [menu]
   [[menu.main]]
