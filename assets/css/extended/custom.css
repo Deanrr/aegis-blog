@@ -1,4 +1,140 @@
-/* Custom styles for Aegis Blog */
+/* Custom styles for Aegis Blog - Cyber Glass Theme */
+
+/* ============================================
+   AEGIS PRIME CYBER GLASS OVERRIDES
+   Match the landing page aesthetic
+   ============================================ */
+
+/* Override theme colors for dark mode */
+:root[data-theme="dark"] {
+    --theme: #0a0b0d;
+    /* Deep void black */
+    --entry: #111318;
+    /* Slate-900 with blue tint */
+    --primary: #e4e7ec;
+    /* Light text */
+    --secondary: #9ba1b3;
+    /* Muted text */
+    --tertiary: #1f2937;
+    /* Borders */
+    --content: #c4c6c8;
+    /* Body text */
+    --code-block-bg: #0d1520;
+    /* Code blocks */
+    --code-bg: #13131b;
+    /* Inline code */
+    --border: rgba(255, 255, 255, 0.1);
+}
+
+/* Page background - animated gradient like landing */
+[data-theme="dark"] body {
+    background: linear-gradient(135deg, #0a0b0d 0%, #0d1520 50%, #050506 100%);
+    background-attachment: fixed;
+}
+
+/* Post cards - Glass effect with subtle border */
+[data-theme="dark"] .post-entry {
+    background: rgba(17, 19, 24, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    backdrop-filter: blur(8px);
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+[data-theme="dark"] .post-entry:hover {
+    transform: translateY(-4px);
+    border-color: rgba(93, 213, 255, 0.3);
+    box-shadow: 0 12px 40px rgba(93, 213, 255, 0.1), 0 4px 12px rgba(124, 110, 255, 0.08);
+}
+
+/* Post header styling */
+[data-theme="dark"] .post-entry .entry-header h2 {
+    color: #fff;
+}
+
+/* Single post page */
+[data-theme="dark"] .post-single {
+    background: transparent;
+}
+
+[data-theme="dark"] .post-content {
+    background: transparent;
+}
+
+/* Header - match landing page style */
+[data-theme="dark"] header.header {
+    background: rgba(10, 11, 13, 0.9);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+}
+
+/* Footer styling */
+[data-theme="dark"] footer.footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    background: transparent;
+}
+
+/* Links - Cyan accent like landing page */
+[data-theme="dark"] a {
+    color: #5dd5ff;
+}
+
+[data-theme="dark"] a:hover {
+    color: #7c6eff;
+}
+
+/* Code blocks - darker with border */
+[data-theme="dark"] .highlight pre {
+    background: #0d1520 !important;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+}
+
+/* Inline code */
+[data-theme="dark"] code:not([class*="language-"]) {
+    background: rgba(124, 110, 255, 0.15);
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+/* Tables - match landing page style */
+[data-theme="dark"] table {
+    border-collapse: collapse;
+}
+
+[data-theme="dark"] th,
+[data-theme="dark"] td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 12px;
+}
+
+[data-theme="dark"] th {
+    background: rgba(93, 213, 255, 0.1);
+}
+
+/* Blockquotes - accent styling */
+[data-theme="dark"] blockquote {
+    border-left: 4px solid #5dd5ff;
+    background: rgba(93, 213, 255, 0.05);
+    padding: 16px;
+    border-radius: 0 12px 12px 0;
+    margin: 24px 0;
+}
+
+/* Center code blocks/diagrams */
+[data-theme="dark"] .post-content .highlight {
+    display: flex;
+    justify-content: center;
+}
+
+[data-theme="dark"] .post-content .highlight pre {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+/* ============================================
+   ORIGINAL COVER IMAGE STYLES
+   ============================================ */
 
 /* Cover image - full width, readable on mobile */
 .post-content .post-cover,
@@ -15,7 +151,8 @@ article .post-cover img {
     width: 100%;
     max-width: 500px;
     height: auto;
-    border-radius: 8px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 /* Style the caption */

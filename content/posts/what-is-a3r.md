@@ -24,25 +24,25 @@ A3R addresses the critical gap in modern security operations: the analyst bottle
 
 ## Where A3R Fits in the Security Stack
 
-```
+```text
 ┌─────────────────────────────────────────────────────────┐
-│                    DETECTION LAYER                       │
+│                    DETECTION LAYER                      │
 │            EDR / XDR / SIEM / Email Gateway             │
-│                 "Something happened"                     │
+│                 "Something happened"                    │
 └─────────────────────────┬───────────────────────────────┘
                           │
                           ▼
 ┌─────────────────────────────────────────────────────────┐
-│                      A3R LAYER                           │
+│                      A3R LAYER                          │
 │         Automated Artifact Analysis & Response          │
 │    "Here's exactly what happened and what to do"        │
 └─────────────────────────┬───────────────────────────────┘
                           │
                           ▼
 ┌─────────────────────────────────────────────────────────┐
-│                   ORCHESTRATION LAYER                    │
-│                    SOAR / Ticketing                      │
-│                  "Execute the response"                  │
+│                   ORCHESTRATION LAYER                   │
+│                    SOAR / Ticketing                     │
+│                  "Execute the response"                 │
 └─────────────────────────────────────────────────────────┘
 ```
 
