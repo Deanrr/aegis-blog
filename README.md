@@ -21,5 +21,5 @@ Traditional incident response is manual, slow, and prone to human error. **A3R (
 * **Scalable Architecture:** Designed for enterprise-level deployments via `aegisprime.app`.
 
 ## 🚀 Getting Started
-To view the live dashboard or integrate the API, visit the official portal:
+To view the live dashboard or experience it yourself, sign up at the official portal:
 👉 **[https://aegisprime.app](https://aegisprime.app)**
