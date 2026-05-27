@@ -213,7 +213,7 @@ A3R is the core capability powering [AegisPrime](https://aegisprime.app)—an au
 
 **Ready to see A3R in action?**
 
-👉 **[Join the Beta Waitlist](https://aegisprime.app)**
+👉 **[Request Access](https://aegisprime.app)**
 
 ---
 

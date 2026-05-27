@@ -16,9 +16,9 @@ If the answer is "nothing," you don't have a product. You have a prompt.
 
 ---
 
-## AegisPrime Beta 1: The Naked Engine
+## AegisPrime Limited Availability: The Naked Engine
 
-We're launching our beta with a **100% deterministic pipeline** with no LLM dependency. This isn't a limitation. It's a strategic choice.
+We're launching under limited availability with a **100% deterministic pipeline** with no LLM dependency. This isn't a limitation. It's a strategic choice.
 
 ### The Validation Test
 
@@ -53,16 +53,16 @@ No API calls to OpenAI. No waiting for GPU inference. Pure Python logic executes
 
 ---
 
-## Beta 2: AI as Force Multiplier
+## Future Phase: AI as Force Multiplier
 
-When we add LLM capabilities in Beta 2, the AI won't be the brain. It will be the **explainer**.
+When we add LLM capabilities in a future phase, the AI won't be the brain. It will be the **explainer**.
 
 **The verdict will already exist.** The AI's job is to articulate *why* the deterministic logic flagged the artifact, making the reasoning accessible to junior analysts.
 
 | Phase | Role |
 |-------|------|
-| Beta 1 (Now) | Engine proves value without AI |
-| Beta 2 (Future) | AI explains the engine's decisions |
+| Limited availability (Now) | Engine proves value without AI |
+| Future phase | AI explains the engine's decisions |
 
 The AI becomes a force multiplier, not the foundation.
 
@@ -97,4 +97,4 @@ AegisPrime is designed to earn your trust the hard way: by proving value with pu
 
 ---
 
-**Ready to try the naked engine?** [Join the beta waitlist](https://aegisprime.app).
+**Ready to try the naked engine?** [Request access](https://aegisprime.app).

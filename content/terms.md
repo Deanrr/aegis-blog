@@ -4,23 +4,23 @@ date: 2025-12-19
 draft: false
 layout: "page"
 url: "/terms"
-description: "AegisPrime Beta Terms of Service - Beta program agreement and usage terms."
+description: "AegisPrime Terms of Service - limited availability access and usage terms."
 ---
 
 **Effective Date:** December 19, 2025  
-**Version:** 1.0 (Beta)
+**Version:** 1.0
 
 ---
 
-## 1. Beta Program Agreement
+## 1. Limited Availability Agreement
 
-By accessing AegisPrime ("Service"), you agree to these Beta Terms of Service. This is a **beta release** provided "as-is" for evaluation purposes.
+By accessing AegisPrime ("Service"), you agree to these Terms of Service. The Service is provided under limited availability for authorized users and early access customers.
 
 ## 2. Service Description
 
-AegisPrime is a security alert triage platform that analyzes security events and provides automated threat assessments. The Service uses heuristic analysis to classify alerts and provide investigative guidance.
+AegisPrime is a guided security decision-support platform that helps teams review common security and policy reports, produce deterministic guided outcomes, save case follow-up state, and prepare operational handoffs.
 
-## 3. Beta Disclaimer
+## 3. Service Disclaimer
 
 **THE SERVICE IS PROVIDED "AS-IS" WITHOUT WARRANTY OF ANY KIND.**
 
@@ -32,24 +32,25 @@ AegisPrime is a security alert triage platform that analyzes security events and
 
 ## 4. Data Handling
 
-- **No Persistent Storage:** Alert data is processed in-memory and discarded after analysis
+- **Raw Alert Handling:** Raw alert data is processed for analysis and is not retained as long-term content
+- **Guided Case Storage:** Saved guided cases may retain case metadata, lifecycle state, notes, and result snapshots for follow-up
 - **No Training:** Your data is never used to train AI models
 - **No Selling:** We never sell or share your data with third parties
-- **Analysis Results:** May be retained temporarily for your dashboard view
-- **Logging:** Minimal operational logs (no raw alert content)
+- **Analysis Results:** May be retained for dashboard, case queue, and operational review features
+- **Logging:** Minimal operational logs and aggregate usage statistics
 
 ## 5. Acceptable Use
 
 You agree NOT to:
 - Submit data containing personally identifiable information (PII)
 - Attempt to reverse-engineer, probe, or attack the Service
-- Share your API key with unauthorized parties
+- Share your access key with unauthorized parties
 - Use the Service for illegal purposes
 - Exceed reasonable usage limits (60 requests/hour)
 
-## 6. API Keys
+## 6. Access Keys
 
-- API keys are confidential credentials
+- Access keys are confidential credentials
 - You are responsible for securing your key
 - Report compromised keys immediately
 - We may revoke keys for ToS violations
@@ -69,7 +70,7 @@ You agree NOT to:
 - Maximum liability is limited to fees paid (if any)
 - You indemnify us against claims from your Service use
 
-## 9. Beta Feedback
+## 9. Feedback
 
 - Feedback you provide may be used to improve the Service
 - You grant us a license to use feedback without compensation
